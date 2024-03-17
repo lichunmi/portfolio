@@ -1,0 +1,26 @@
+export const data = {
+    {
+        color:'#f98866'
+    },
+    {
+        color:'#ffbb00' 
+    },
+    {
+        color:'#80bd9e'
+    },
+    {
+        color:'#375e97'
+    },
+    {
+        color:'#f98866'
+    },
+    {
+        color:'#ffbb00' 
+    },
+    {
+        color:'#80bd9e'
+    },
+    {
+        color:'#375e97'
+    }
+}

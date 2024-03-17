@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+@media (min-width: 1280px) {
+    #main .visual .inner {background-size: 1700px;}
+}
+@media (max-width: 1280px) {
+    .inner {padding: 0 20px;}
+    /* HEADER */
+    #header .gnb, #header .current-year, #main .visual .btn-down {display: none;}
+    #header .menu {display: flex;}
+
+    /* MAIN / visual */
+    #main .visual .contact {right: 20px;}
+    /* MAIN / profile */
+    #main .profile .inner {flex-direction: column;}
+    #main .profile .sec-title {text-align: center;}
+    #main .profile .content {width: 100%;}
+    #main .profile .content.svg-img {width: 60%;padding: 0;margin-bottom: 50px;}
+    #main .profile .content .info {width: 768px;padding-left:60px;margin: 0 auto;}
+
+    #main .publishing .project-wordpress ul .project {width: calc(50% - 20px);}
+}
+@media (max-width: 768px) {
+    :root {
+        --font-82: 11vw;
+        --font-45: 30px;
+    }
+
+    #header {height: 65px;backdrop-filter: blur(15px);}
+
+    /* MAIN / Profile */
+    #main .profile .content .info {width: 100%;padding-left: 0;}
+    #main .profile .content .info > li {width: 100%;padding-left: 80px;margin-bottom: 30px;}
+
+    #main .publishing .panels .panel-list .panel-item {width: 200px;height: 200px;margin: -100px 0 0 -100px;}
+
+    #main .publishing .project-wordpress ul .project {width: 100%;margin: 0px;}
+    #main .design .col {width: 100%;padding: 0 20px;}
+}
+@media (max-width: 412px) {
+    #main .profile .content.svg-img {width: 100%;}
+    #main .profile .content .info > li {padding-left: 0;}
+}

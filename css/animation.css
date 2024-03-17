@@ -1,0 +1,14 @@
+@charset "UFT-8";
+
+/* loading */
+@keyframes loader-ani {
+    0% {transform: rotate(0);}
+    100% {transform: rotate(360deg);}
+}
+
+/* side - Arrow */
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {transform: translateY(0);transform: translateY(0);}
+    40% {transform: translateY(-12px);transform: translateY(-12px);}
+    60% {transform: translateY(-8px);transform: translateY(-8px);}
+}

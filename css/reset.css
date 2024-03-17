@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+/* fonts */
+@font-face {
+    font-family: "Pretendard";
+    font-style: normal;
+    font-weight: 300;
+    src: url("../fonts/Pretendard-Light.eot");
+    src: url("../fonts/Pretendard-Light.eot?#iefix") format("embedded-opentype"),
+         url("../fonts/Pretendard-Light.svg") format("svg"),
+         url("../fonts/Pretendard-Light.ttf") format("truetype"),
+         url("../fonts/Pretendard-Light.woff2") format("woff2"),
+         url("../fonts/Pretendard-Light.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Pretendard";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/Pretendard-Regular.eot");
+    src: url("../fonts/Pretendard-Regular.eot?#iefix") format("embedded-opentype"),
+		 url("../fonts/Pretendard-Regular.svg") format("svg"),
+		 url("../fonts/Pretendard-Regular.ttf") format("truetype"),
+         url("../fonts/Pretendard-Regular.woff2") format("woff2"),
+         url("../fonts/Pretendard-Regular.woff") format("woff");
+}
+@font-face {
+    font-family: "Pretendard";
+    font-style: normal;
+    font-weight: 500;
+    src: url("../fonts/Pretendard-Medium.eot");
+    src: url("../fonts/Pretendard-Medium.eot?#iefix") format("embedded-opentype"),
+		 url("../fonts/Pretendard-Medium.svg") format("svg"),
+		 url("../fonts/Pretendard-Medium.ttf") format("truetype"),
+         url("../fonts/Pretendard-Medium.woff2") format("woff2"),
+         url("../fonts/Pretendard-Medium.woff") format("woff");
+}
+@font-face {
+    font-family: "Pretendard";
+    font-style: normal;
+    font-weight: 600;
+    src: url("../fonts/Pretendard-SemiBold.eot");
+    src: url("../fonts/Pretendard-SemiBold.eot?#iefix") format("embedded-opentype"),
+		 url("../fonts/Pretendard-SemiBold.svg") format("svg"),
+		 url("../fonts/Pretendard-SemiBold.ttf") format("truetype"),
+         url("../fonts/Pretendard-SemiBold.woff2") format("woff2"),
+         url("../fonts/Pretendard-SemiBold.woff") format("woff");
+}
+@font-face {
+    font-family: "Pretendard";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/Pretendard-Bold.eot");
+    src: url("../fonts/Pretendard-Bold.eot?#iefix") format("embedded-opentype"),
+		 url("../fonts/Pretendard-Bold.svg") format("svg"),
+		 url("../fonts/Pretendard-Bold.ttf") format("truetype"),
+         url("../fonts/Pretendard-Bold.woff2") format("woff2"),
+         url("../fonts/Pretendard-Bold.woff") format("woff");
+}
+
+/* reset */
+html {font-size: 10px;}
+body {
+    overflow-x: hidden;
+	font-family: "Pretendard", Malgungothic, "맑은고딕", Dotum, "돋움", sans-serif;
+	font-weight: 400;
+	line-height: 1.5;
+	letter-spacing: -0.025em;
+	word-break: keep-all;
+	word-wrap: break-word;
+    background-color: #ecede5;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+}
+body.fixed {position: fixed;overflow-y: scroll;width: 100vw;height: 100vh;}
+body, a, button {color: #101010;}
+
+html, body, article, aside, footer, header, nav, section, h1, h2, h3, h4, h5, h6, p, div, blockquote, pre, abbr, a, span, img, em, strong, sub, sup, var, address, button, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, figure, figcaption, audio, video {margin: 0;padding: 0;border: 0;font-weight: 400;box-sizing: border-box;}
+dl, ol, ul, li {list-style: none;color: #101010;}
+a {display: block;font-family: "Pretendard", Malgungothic, "맑은고딕", Dotum, "돋움", sans-serif;text-decoration: none;}
+img {display: block;width: 100%;border: 0;user-select: none;-webkit-user-drag: none;}
+button {font-family: "Pretendard", Malgungothic, "맑은고딕", Dotum, "돋움", sans-serif;outline: 0;border: 0;background-color: transparent;}
+button:hover {cursor: pointer;}
